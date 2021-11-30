@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResidenceActivity">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="3dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0.08"
+        android:id="@+id/line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/line"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Residence Details"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.5"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/line"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:background="@drawable/ic_baseline_home_24"
+        android:backgroundTint="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:id="@+id/linLayout"
+        android:padding="10dp"
+        android:elevation="5dp">
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="60dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:hint="Hostel Name"-->
+<!--        android:elevation="4dp"-->
+<!--        android:background="@drawable/elevation_effect"-->
+<!--        tools:targetApi="lollipop">-->
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="43dp"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:id="@+id/hostelName"-->
+<!--            android:letterSpacing="0.3"-->
+<!--            android:textSize="20sp"-->
+<!--            tools:targetApi="lollipop"-->
+<!--            >-->
+
+<!--        </com.google.android.material.textfield.TextInputEditText>-->
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/hostelName"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:background="#D4F1F4"
+            android:backgroundTintMode="src_atop"
+            tools:targetApi="lollipop" />
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:hint="Room Number"
+        android:elevation="4dp"
+        android:background="@drawable/elevation_effect">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/roomNo"
+            android:inputType="number"
+            android:letterSpacing="0.3"
+            android:textSize="20dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:hint="Warden's Name"
+        android:elevation="4dp"
+        android:background="@drawable/elevation_effect">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/warden"
+            android:letterSpacing="0.3"
+            android:textSize="20dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:hint="Contact Number"
+        android:elevation="4dp"
+        android:background="@drawable/elevation_effect">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/contact"
+            android:inputType="phone"
+            android:letterSpacing="0.3"
+            android:textSize="20dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Back"
+                android:id="@+id/back"
+                android:textColor="@color/white"
+                android:background="@drawable/button_elevation"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_elevation"
+                android:id="@+id/resNext"
+                android:text="Save &amp; Next"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

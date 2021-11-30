@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243973455498",
+    "project_id": "ivs-dbms",
+    "storage_bucket": "ivs-dbms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243973455498:android:2eff6bd56ca408c3f5b773",
+        "android_client_info": {
+          "package_name": "com.example.ivs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243973455498-foob47cqk9iv280clv937sjfstvvscla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ivs",
+            "certificate_hash": "4f177a1bfd8d417c9091409e6303eebbddcf69be"
+          }
+        },
+        {
+          "client_id": "243973455498-kj1hk9nhitf7irv4185pitbhhpd3j0bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDih-ht3HhVMXCFiSmr8kY8VjsjcmnPgCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243973455498-kj1hk9nhitf7irv4185pitbhhpd3j0bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

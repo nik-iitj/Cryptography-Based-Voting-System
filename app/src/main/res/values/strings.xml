@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IVS</string>
+
+    <string-array name="hostels">
+        <item>Choose Your Hostel</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>I2</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>Choose Your Question</item>
+        <item>Your role model</item>
+        <item>One unique superpower you could have</item>
+        <item>Color You dont like</item>
+        <item>If given a chance to change your name, what it could be</item>
+        <item>Favourite place in IITJ</item>
+        <item>This is another question 1</item>
+        <item>This is another question 2</item>
+    </string-array>
+
+
+</resources>

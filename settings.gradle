@@ -1,0 +1,2 @@
+rootProject.name = "IVS"
+include ':app'
